@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-19T14:57:49 IST" name="Default suite" finished-at="2025-08-19T14:57:57 IST" duration-ms="7804">
+    <groups>
+    </groups>
+    <test started-at="2025-08-19T14:57:49 IST" name="Default test" finished-at="2025-08-19T14:57:57 IST" duration-ms="7804">
+      <class name="Enterprises.LeavePolicyTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Enterprises.LeavePolicyTest@6e9175d8]" started-at="2025-08-19T14:57:49 IST" name="launchBrowser" finished-at="2025-08-19T14:57:57 IST" duration-ms="7234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Enterprises.LeavePolicyTest@6e9175d8]" started-at="2025-08-19T14:57:57 IST" name="login" finished-at="2025-08-19T14:57:57 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateLeavePolicy()[pri:0, instance:Enterprises.LeavePolicyTest@6e9175d8]" started-at="2025-08-19T14:57:57 IST" name="CreateLeavePolicy" description="Creating Leave Policy" finished-at="2025-08-19T14:57:57 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLeavePolicy -->
+      </class> <!-- Enterprises.LeavePolicyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
