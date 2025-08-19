@@ -72,6 +72,11 @@ public class LeavePolicy
 	{
 		Policy.click();
 	}
+
+	public void AddLeaveButton()
+	{
+		AddLeaveButton.click();
+	}
 	
 	public void leaveName()
 	{
