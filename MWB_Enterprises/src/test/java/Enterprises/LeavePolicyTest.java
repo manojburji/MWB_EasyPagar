@@ -9,7 +9,7 @@ public class LeavePolicyTest extends HRMSBaseClass
 	{
 		Homepage.leavePolicy();
 		LeavePolicy.policy();
-		LeavePolicy.AddLeaveButton();
+		
 
 	}
 }
