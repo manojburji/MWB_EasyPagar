@@ -9,6 +9,5 @@ public class LeavePolicyTest extends HRMSBaseClass
 	{
 		Homepage.leavePolicy();
 		LeavePolicy.policy();
-		TestandPush();
 	}
 }
