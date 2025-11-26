@@ -1,9 +1,12 @@
  package Enterprises;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 
+import EnterprisesPOM.Amazon;
 import EnterprisesPOM.Holiday;
 import EnterprisesPOM.LeavePolicy;
 import EnterprisesPOM.LoginEnterprises;
@@ -28,14 +31,16 @@ public class HRMSBaseClass
     {
     	driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("http://192.168.1.193/hrms/auth/login");
-        Thread.sleep(2000);
+        driver.get("https://www.amazon.in/");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+      //  Thread.sleep(2000);
         
     	Login = new LoginEnterprises(driver);
     	Homepage = new Homepage(driver);
     	Holiday = new Holiday(driver);
     	LeavePolicy = new LeavePolicy(driver);
-    	
+    	Amazon = new Amazon(driver); 
     	
     	
     }
@@ -44,15 +49,16 @@ public class HRMSBaseClass
     public Homepage Homepage;
     public Holiday Holiday;
     public LeavePolicy LeavePolicy;
+    public Amazon Amazon;
     
     
     
-    @BeforeMethod
-    public void login() throws InterruptedException
-    {
-       Login.userNumber("7975666611");
-       Login.password("Test@123");
-       Login.loginButton();
-       
-    }
+//    @BeforeMethod
+//    public void login() throws InterruptedException
+//    {
+//       Login.userNumber("7975666611");
+//       Login.password("Test@123");
+//       Login.loginButton();
+//       
+//    }
 }

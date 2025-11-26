@@ -15,7 +15,8 @@ public class HolidayTest extends HRMSBaseClass
 		Holiday.holidayType();
 		Holiday.dateSelect();
 		Holiday.durationType();
-		Holiday.addButton();	
+		Holiday.addButton();
+		
 	}
 	
 	@Test(description = "Edit Holiday")

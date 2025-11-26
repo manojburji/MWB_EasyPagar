@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Enterprises.LeavePolicyTest">
+      <class name="Enterprises.AmazonTest">
         <methods>
           <include name="launchBrowser"/>
-          <include name="login"/>
-          <include name="CreateLeavePolicy"/>
+          <include name="Price"/>
         </methods>
-      </class> <!-- Enterprises.LeavePolicyTest -->
+      </class> <!-- Enterprises.AmazonTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
