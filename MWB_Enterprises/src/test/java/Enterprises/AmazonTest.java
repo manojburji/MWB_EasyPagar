@@ -23,5 +23,6 @@ public class AmazonTest extends HRMSBaseClass
 		Amazon.flipkartClickOnMobiles();
 		Amazon.flipkartProductPrice();
 		Amazon.flipkartProductRatingsAndReviews();
+		
 	}
 }
