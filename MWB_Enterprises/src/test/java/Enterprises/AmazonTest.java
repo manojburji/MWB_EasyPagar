@@ -21,7 +21,8 @@ public class AmazonTest extends HRMSBaseClass {
         Amazon.flipkartProductRatingsAndReviews();
     }
 
-    @Test(description = "Test")
-    public void RatingsTest() {
-    }
+    // @Test(description = "Test")
+    // public void RatingsTest() {
+    // }
+// }
 }
