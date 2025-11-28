@@ -1,6 +1,5 @@
 package Enterprises;
 
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class AmazonTest extends HRMSBaseClass {
@@ -12,7 +11,7 @@ public class AmazonTest extends HRMSBaseClass {
         Amazon.clickOnMobile();
         Amazon.productPrice();
         Amazon.productRatings();
-
+    
     }
 
     @Test(description = "Flipkart Price Ratings and Reviews")
@@ -25,10 +24,5 @@ public class AmazonTest extends HRMSBaseClass {
 
     @Test(description = "Test")
     public void RatingsTest() {
-    }
-
-    @AfterMethod
-    public void closeBrowser() {
-        driver.quit();   // closes browser after EACH test
     }
 }
