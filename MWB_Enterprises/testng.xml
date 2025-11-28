@@ -2,9 +2,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="AutomationSuite" verbose="1" parallel="false">
     <test name="AutomationTests">
-        <classes>
-            <!-- Replace this class with your real test class -->
-            <class name="Enterprises.HRMSBaseClass"/>
-        </classes>
+        <packages>
+            <package name="Enterprises.*"/>
+        </packages>
     </test>
 </suite>
