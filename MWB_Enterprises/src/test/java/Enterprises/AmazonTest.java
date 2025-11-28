@@ -24,7 +24,4 @@ public class AmazonTest extends HRMSBaseClass {
     @Test(description = "Test")
     public void RatingsTest() {
     }
-
-    {
-    }
 }
