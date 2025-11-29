@@ -26,7 +26,4 @@ public class AmazonTest extends HRMSBaseClass {
     public void RatingsTest() {
     }
 
-    {
-
-    }
 }
