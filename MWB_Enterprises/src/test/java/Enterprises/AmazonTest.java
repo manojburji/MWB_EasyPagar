@@ -11,7 +11,7 @@ public class AmazonTest extends HRMSBaseClass {
         Amazon.clickOnMobile();
         Amazon.productPrice();
         Amazon.productRatings();
-    
+
     }
 
     @Test(description = "Flipkart Price Ratings and Reviews")

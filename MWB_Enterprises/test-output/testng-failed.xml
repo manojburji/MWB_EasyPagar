@@ -6,7 +6,8 @@
       <class name="Enterprises.AmazonTest">
         <methods>
           <include name="launchBrowser"/>
-          <include name="Price"/>
+          <include name="Ratings"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- Enterprises.AmazonTest -->
     </classes>
